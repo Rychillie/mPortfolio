@@ -10,7 +10,7 @@ $secondary: #2429af;
   letter-spacing: -0.02em;
 }
 
-@mixin heading1 {
+@mixin heading2 {
   font-weight: 400;
   font-size: 32px;
   line-height: 1.1;
@@ -36,4 +36,12 @@ $secondary: #2429af;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: -0.02em;
+}
+
+.container {
+  max-width: 1120px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-left: auto;
+  margin-right: auto;
 }

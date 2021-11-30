@@ -1,0 +1,53 @@
+@import "../../styles/variables.scss";
+
+.navTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0;
+  margin-bottom: 120px;
+
+  a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: $mainBlack;
+
+    &:hover {
+      color: $mainGray;
+    }
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  h1 {
+    color: $mainBlack;
+    max-width: 360px;
+
+    @include heading1;
+  }
+
+  p {
+    color: $mainGray;
+    max-width: 580px;
+
+    @include heading2;
+  }
+
+  & + svg {
+    margin-top: 72px;
+  }
+}

@@ -1,0 +1,31 @@
+@import "../../styles/variables.scss";
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 72px 0;
+  margin-top: 196px;
+
+  @extend .container;
+
+  a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: $mainBlack;
+
+    &:hover {
+      color: $mainGray;
+    }
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+  }
+}
