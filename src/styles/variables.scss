@@ -1,0 +1,39 @@
+$mainBlack: #181717;
+$mainGray: #606060;
+$mainWhite: #f3f3f3;
+$secondary: #2429af;
+
+@mixin heading1 {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+@mixin heading1 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+@mixin body {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+@mixin navigation {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+@mixin subText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
