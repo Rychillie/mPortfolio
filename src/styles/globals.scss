@@ -50,3 +50,6 @@ h6 {
 #__next {
   isolation: isolate;
 }
+main {
+  @extend .container;
+}

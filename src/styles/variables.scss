@@ -38,6 +38,13 @@ $secondary: #2429af;
   letter-spacing: -0.02em;
 }
 
+@mixin link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
 .container {
   max-width: 1120px;
   padding-left: 24px;
