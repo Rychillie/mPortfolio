@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           site_name: "Minimal Portfolio",
           images: [
             {
-              url: "/thumbnail.png",
+              url: "https://mportfolio-nine.vercel.app/thumbnail.png",
               alt: "Minimal Portfolio",
               width: 842,
               height: 595,
