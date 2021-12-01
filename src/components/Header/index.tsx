@@ -41,7 +41,7 @@ const Header = ({ isHome }: Props) => {
             <h1>Hello, I`m Rychillie</h1>
 
             <p>
-              A senior front-end developer who trying to specialize in open
+              A senior front-end developer specializing in open
               source.
             </p>
           </div>
